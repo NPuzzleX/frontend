@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: npuzzlex-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: npuzzlex-frontend
+  template:
+    metadata:
+      labels:
+        name: npuzzlex-frontend
+    spec:
+      containers:
+      - name: application
+        image: npuzzlex-frontend
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 80

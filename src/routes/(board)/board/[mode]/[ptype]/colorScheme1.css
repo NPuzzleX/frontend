@@ -1,0 +1,133 @@
+/*   MAIN PANEL   */
+#mainBoard {
+    border-color: black;
+    background-color: white;
+}
+
+#mainBoard.kakuro {
+    gap: 4px;
+    background-color: black;
+}
+
+.boardCell {
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.boardCell.kakuro {
+    border-color: white;
+}
+
+.boardCell svg line {
+    stroke: white;
+} 
+
+.boardCell svg.main line {
+    stroke: black;
+}
+
+.boardCell svg.wrong line {
+    stroke: red;
+}
+
+.boardCell::selection {
+    color: inherit;
+    background: inherit;
+}
+
+.boardCell.empty {
+    background-color: white;
+    color: black;
+}
+
+.boardCell div.empty {
+    background-color: white;
+    color: black;
+}
+
+.boardCell.fix {
+    background-color: white;
+    color: blue;
+}
+
+.boardCell.selected {
+    color: white;
+    background-color: blue;
+    border-color: darkgreen;
+}
+
+.boardCell.wrong {
+    background-color: red;
+    color: white;
+}
+
+.boardCell div.wrong { 
+    background-color: red;
+    color: white;
+} 
+
+.boardCell.oddCell {
+    background-color: rgb(215, 201, 201);
+}
+
+.bl {
+    border-left-color: black;
+}
+  
+.br {
+    border-right-color: black;
+}
+  
+.bt {
+    border-top-color: black;
+}
+  
+.bb {
+    border-bottom-color: black;
+}
+
+/*   OPTION BOARD   */
+.option {
+    font-size: min(2vw, 17px);
+}
+
+.option .icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+  
+.option .newIcon {
+   position: relative;
+   top: -0.2em;
+}
+  
+.option .hiddenIcon {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: 0.7em;
+}
+
+.option input {
+    font-size: 1em;
+}
+
+.option p {
+    font-weight: bolder;
+    font-size: 60%;
+}
+
+.option button {
+    background-color: hsl(141, 53%, 53%);
+    font-size: 1em;
+}
+
+.option button p {
+    color:hsl(0, 0%, 29%);
+}
+
+.option button:disabled {
+    background-color: hsl(0, 0%, 71%)
+}
