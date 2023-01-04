@@ -207,6 +207,7 @@
             <button class="primary bg-accent-2" on:click={() => {edit("", "Slitherlink")}}>Slitherlink</button>
             <button class="primary bg-accent-2" on:click={() => {edit("", "Hashi")}}>Hashiwokakero</button>
             <button class="primary bg-accent-2" on:click={() => {edit("", "Futoshiki")}}>Futoshiki</button>
+            <button class="primary bg-accent-2" on:click={() => {edit("", "Nurikabe")}}>Nurikabe</button>
         </div>
     </div>
 {/if}
