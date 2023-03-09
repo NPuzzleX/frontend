@@ -5,7 +5,7 @@ metadata:
     app: npuzzle-frontend
   name: npuzzle-frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: npuzzle-frontend

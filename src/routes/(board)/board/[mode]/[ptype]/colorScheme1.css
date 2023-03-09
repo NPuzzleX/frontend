@@ -5,7 +5,7 @@
 }
 
 #mainBoard.kakuro {
-    gap: 4px;
+    gap: 3px;
     background-color: black;
 }
 

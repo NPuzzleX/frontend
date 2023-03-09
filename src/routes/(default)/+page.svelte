@@ -7,7 +7,7 @@
    
     var getParams = {
      page: 1,
-     limit: 5,
+     limit: 15,
     };
     var puzzles: any[] = [];
     let loggedIn: boolean = false;
