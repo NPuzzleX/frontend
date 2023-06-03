@@ -5,8 +5,8 @@ import { putCache, putRawCache, callCache } from "./helpers/cacheApi";
 import { getDBbyId } from './helpers/indexdb';
 
 const worker = (self as unknown) as ServiceWorkerGlobalScope;
-const baseUrl: string = "https://npuzzlex.3mworkshop.com/api";
-const remoteAddr: string = "https://npuzzlex.3mworkshop.com/repo";
+const baseUrl: string = "https://3mworkshop.com/api";
+const remoteAddr: string = "https://3mworkshop.com/repo";
 
 let anon: boolean = true;
 let offline: boolean = false;
