@@ -8,6 +8,7 @@
     var getParams = {
      page: 1,
      limit: 15,
+     self: 0
     };
     var puzzles: any[] = [];
     let loggedIn: boolean = false;
@@ -159,8 +160,8 @@
                {getParams.page - pageSubstract + i + 1}
            </button>
        {/each}    
-       <button disabled={puzzles.length < getParams.limit} on:click={nextPage}>></button>
-       <button disabled={puzzles.length < getParams.limit} on:click={() => {jumpPage(maxPage);}}>>></button>
+       <button disabled={puzzles.length < getParams.limit} on:click={nextPage}></button>
+       <button disabled={puzzles.length < getParams.limit} on:click={() => {jumpPage(maxPage);}}></button>
     </div>
    </main>
    
