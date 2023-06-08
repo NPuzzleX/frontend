@@ -16,7 +16,7 @@
         <img alt="GitHub" src={GitHubLight} style="object-fit: scale-down; width: 32px; height: 32px;"/>
     </a>    
     <div class="item" style="flex-direction: row; justify-content:center; border:none;">
-        <a class="primary bg-accent-2" style="display: flex; flex-direction: row; align-items:center" href="https://ko-fi.com/npuzzle" target="blank">
+        <a class="primary bg-accent-2" style="display: flex; flex-direction: row; align-items:center" href="https://ko-fi.com/3mworkshop" target="blank">
             <img alt="KofiLogo" src={Kofilogo} height="32" width="32"/>
             Donate
         </a>

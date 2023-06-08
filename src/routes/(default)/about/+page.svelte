@@ -20,7 +20,7 @@
     <div class="item-d">
         <div class="subitem">
             <div class="primary bg-accent-2 donateBtn">
-                <a style="display: flex; flex-direction: row; align-items:center;" href="https://ko-fi.com/npuzzle" target="blank">
+                <a style="display: flex; flex-direction: row; align-items:center;" href="https://ko-fi.com/3mworkshop" target="blank">
                     <img alt="KofiLogo" src={Kofilogo} height="32" width="32"/>
                     Donate
                 </a>
